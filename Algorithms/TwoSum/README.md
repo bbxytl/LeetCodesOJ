@@ -13,3 +13,11 @@ You may assume that each input would have exactly one solution.
 - **[Hash Table](https://oj.leetcode.com/tag/hash-table/)**
 
 
+##Slou
+
+- **TwoSum**
+- **[TwoSum1](https://oj.leetcode.com/discuss/17487/got-right-answer-in-my-vs2005-but-wrong-in-oj-in-two-sum-case-3-0?show=17487#q17487)**
+    - 主要使用了迭代器**[`vector<int>::iterator`](http://www.cplusplus.com/reference/iterator/iterator/?kw=iterator) **
+- **[TwoSum2](https://oj.leetcode.com/discuss/26254/my-c-code-unordered_map-used-o-n-space-o-n-time)**
+    - 使用了c++11新STL模板类**[`unordered_map`](http://www.cplusplus.com/reference/unordered_map/unordered_map/) **
+

@@ -85,6 +85,34 @@ using namespace std;
         return tmpvi;
     }
 
+#include <unordered_map> //c++11
+        vector<int> twoSum3(vector<int> &numbers, int target) {
+            vector<int> res;
+            int i, vSize;
+            unordered_map<int, int> numMap;
+            vSize = numbers.size();
+            unordered_map<int,int>::const_iterator fIdx;
+
+            if(vSize>1)
+            {
+                for(i=0;i<vSize; i++)
+                {
+                    fIdx = numMap.find(target - numbers[i]);
+                    if(fIdx != numMap.end())
+                    { // if its pal is already in the map, then return
+                        res.push_back(fIdx->second);
+                        res.push_back(i+1);
+                        break;
+                    }
+                    else
+                    { // insert itself to the map
+                        numMap[numbers[i]] = i+1;
+                    }
+                }
+            }
+            return res;
+        }
+
 int main()
 {
     cout << "Hello World!" << endl;
