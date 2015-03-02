@@ -138,6 +138,45 @@ using namespace std;
             }
         }
 
+        // 15ms
+        // https://oj.leetcode.com/discuss/23734/my-15ms-accepted-c-o-n-log-n-solution
+        vector<int> twoSum5(vector<int> &numbers, int target) {
+            vector<int> v = numbers;
+            sort(v.begin(), v.end());
+            int left = 0;
+            int right = (int) v.size() - 1;
+            while (left < right) {
+                int middle = v[left] + v[right];
+                if (middle == target) break;
+                if (middle < target)
+                    ++left;
+                else
+                    --right;
+            }
+
+            int result_index1;
+            int result_index2;
+            for (int i=0;i<v.size();++i) {
+                if (numbers[i] == v[left]) {
+                    result_index1 = i;
+                    break;
+                }
+            }
+
+            for (int i=(int)v.size()-1;i >= 0;--i) {
+                if (numbers[i] == v[right]) {
+                    result_index2 = i;
+                    break;
+                }
+            }
+
+            if (result_index1 > result_index2)
+                swap(result_index1,result_index2);
+
+            vector<int> result {result_index1 + 1, result_index2 + 1};
+            return result;
+        }
+
 int main()
 {
     cout << "Hello World!" << endl;
