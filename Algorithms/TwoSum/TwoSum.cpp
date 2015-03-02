@@ -3,6 +3,7 @@
 
 #include <algorithm>
 using namespace std;
+//自解法 1
     vector<int> twoSum(vector<int> &numbers, int target) {
         vector<int> index(numbers);
         sort(index.begin(),index.end());
@@ -29,14 +30,59 @@ using namespace std;
             i2 = find(numbers.begin(), numbers.end(), mid );
         else
             i2 = find(i1+1, numbers.end(), mid);
-        int d1=i1 - numbers.begin();
-        int d2=i2 - numbers.begin();
+        int d1=i1 - numbers.begin()+1;
+        int d2=i2 - numbers.begin()+1;
 
         index.clear();
-        index.push_back(d1+1);
-        index.push_back(d2+1);
+        index.push_back(d1);
+        index.push_back(d2);
         sort(index.begin(),index.end());
         return index;
+    }
+// 源自网友：
+// https://oj.leetcode.com/discuss/17487/got-right-answer-in-my-vs2005-but-wrong-in-oj-in-two-sum-case-3-0?show=17487#q17487
+
+    vector<int> twoSum2(vector<int> &numbers, int target) {
+        vector<int> tmpvi(numbers);
+        int tb=0,te=0;
+        sort(tmpvi.begin(),tmpvi.end());
+
+        vector<int>::iterator begin = tmpvi.begin(),end = tmpvi.end()-1;
+
+        while (begin<end)
+        {
+            if ((*begin)+(*end) == target)
+            {
+                tb = *begin;
+                te = *end;
+                break;
+            }else{
+                if ((*begin)+(*end)<target)
+                    ++begin;
+                else
+                    --end;
+            }
+        }
+        vector<int>::iterator i1 = find(numbers.begin(), numbers.end(), tb );
+        vector<int>::iterator i2 = find(numbers.begin(), numbers.end(), te );
+
+        if (tb==te)
+        {
+            i2 = find(i2+1, numbers.end(), te );
+        }
+
+        int index1 = i1 - numbers.begin()+1;
+        int index2 = i2 - numbers.begin()+1;
+        if (index1>index2)
+        {
+            int tmp = index1;
+            index1 = index2;
+            index2 = tmp;
+        }
+        tmpvi.clear();
+        tmpvi.push_back(index1);
+        tmpvi.push_back(index2);
+        return tmpvi;
     }
 
 int main()
@@ -49,7 +95,7 @@ int main()
     index.push_back(3);
     index.push_back(90);
 
-    index=twoSum(index,0);
+    index=twoSum2(index,0);
     for(int i=0;i<index.size();++i){
         cout<<index.at(i)<<endl;
     }
