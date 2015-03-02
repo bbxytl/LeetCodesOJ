@@ -6,10 +6,10 @@ The function twoSum should return indices of the two numbers such that they add 
 
 You may assume that each input would have exactly one solution.
 
-Input: numbers={2, 7, 11, 15}, target=9
-Output: index1=1, index2=2
+**Input**: ` numbers={2, 7, 11, 15}, target=9 `
+**Output**: ` index1=1, index2=2 `
 
-**[Array](https://oj.leetcode.com/tag/array/)**
-**[Hash Table](https://oj.leetcode.com/tag/hash-table/)**
+- **[Array](https://oj.leetcode.com/tag/array/)**   
+- **[Hash Table](https://oj.leetcode.com/tag/hash-table/)**
 
 
