@@ -113,6 +113,31 @@ using namespace std;
             return res;
         }
 
+
+#include <utility>
+        vector<int> twoSum4(vector<int> &numbers, int target) {
+            int n=numbers.size(),l=0,r=n-1;
+            vector< pair<int,int> > ans;
+
+            for(int i=0;i<n;i++) ans.push_back(make_pair(numbers[i],i+1));
+            sort(ans.begin(),ans.end());
+
+            while(l<r)
+            {
+                int x=ans[l].first+ans[r].first;
+                if(x<target) l++;
+                else if(x>target) r--;
+
+                else
+                {
+                    vector<int> a=vector<int>(ans[l].second,ans[r].second);
+                    sort(a.begin(),a.end());
+                    return a;
+                }
+
+            }
+        }
+
 int main()
 {
     cout << "Hello World!" << endl;
@@ -123,7 +148,7 @@ int main()
     index.push_back(3);
     index.push_back(90);
 
-    index=twoSum2(index,0);
+    index=twoSum(index,0);
     for(int i=0;i<index.size();++i){
         cout<<index.at(i)<<endl;
     }
