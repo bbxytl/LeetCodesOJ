@@ -1,6 +1,6 @@
-[**GitHub博客**](https://github.com/bbxytl/bbxytl.github.com/tree/master/blog) / [LeetCodesOJ](https://oj.leetcode.com/)
+[**GitHub博客**](https://github.com/bbxytl/bbxytl.github.com/tree/master/blog) / [LeetCodesOJ](https://github.com/bbxytl/LeetCodesOJ)
 =======
-**Lean from LeetCode OJ**
+**Lean from [LeetCode OJ](https://oj.leetcode.com/)**
 
 ##目录
 **[1 TwoSum](https://github.com/bbxytl/LeetCodesOJ/tree/master/Algorithms/1%20TwoSum)**   
