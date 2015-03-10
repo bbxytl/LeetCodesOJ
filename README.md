@@ -11,4 +11,5 @@
 **[6 ZigZag Conversion](https://github.com/bbxytl/LeetCodesOJ/tree/master/Algorithms/6%20ZigZag%20Conversion)**   
 **[7 Reverse Integer](https://github.com/bbxytl/LeetCodesOJ/tree/master/Algorithms/7%20Reverse%20Integer)**   
 **[8 String to Integer_atoi](https://github.com/bbxytl/LeetCodesOJ/tree/master/Algorithms/8%20String%20to%20Integer_atoi)**   
-**[9 Reverse Bits](https://github.com/bbxytl/LeetCodesOJ/tree/master/Algorithms/9%20Reverse%20Bits)**   
+**[9 Reverse Bits](https://github.com/bbxytl/LeetCodesOJ/tree/master/Algorithms/9%20Reverse%20Bits)**  
+**[10 Palindrome Number](https://github.com/bbxytl/LeetCodesOJ/tree/master/Algorithms/10%20Palindrome%20Number)**  
