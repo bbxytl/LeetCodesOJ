@@ -23,5 +23,12 @@ If no valid conversion could be performed, a zero value is returned. If the corr
 
 ##Solutions
 
-- **[String to Integer -- 14ms]( )**
-- **[String to Integer (atoi) 2 -- 14ms]( )**  
+- **[String to Integer -- 16ms](https://leetcode.com/submissions/detail/22695579/)**
+    - 首先判断字符串是否为空，然后去除字符串首部的空格，判断第一个非空字符是否为：` - , + , 数字 `。如果第一个非空字符不是这三种，则返回**0**。
+    - 如果是`-`，则最终数字为负数；
+    - 如果是`+，数字 `，则最终数字为正数；
+    - 这里要考虑数字以`0`开头的，要在最后数字的处理中去除其影响。
+    - 同时要考虑到字符串中的数字，如果全部转成整型，会不会出现越界溢出的情况，所以要进行溢出判断，这里根据整型是正数还是负数进行了判断，大于最大正数，则返回最大数，小于最小负数，则返回最小负数。
+- **[String to Integer (atoi) 2 -- 17ms](https://leetcode.com/submissions/detail/22697529/)**  
+    - 使用了`stringstream`类，包含在头文件`#include <sstream>`
+    - **STL**及其简洁的代码。
