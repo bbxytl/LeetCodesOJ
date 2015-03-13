@@ -14,6 +14,8 @@
 **[9 Reverse Bits](https://github.com/bbxytl/LeetCodesOJ/tree/master/Algorithms/9%20Reverse%20Bits)**  
 **[10 Palindrome Number](https://github.com/bbxytl/LeetCodesOJ/tree/master/Algorithms/10%20Palindrome%20Number)**  
 **[11 Container With Most Water](./Algorithms/11 Container With Most Water)**  
-**[12 Integer to Roman](./Algorithms/12 Integer to Roman)**  
+**[12 Integer to Roman](./Algorithms/12 Integer to Roman)** 
+**[13 Roman to Integer](./Algorithms/13 Roman to Integer)** 
+**[14 Longest Common Prefix](./Algorithms/14 Longest Common Prefix)**
 
 
