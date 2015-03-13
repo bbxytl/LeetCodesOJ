@@ -5,3 +5,7 @@ There are two sorted arrays A and B of size m and n respectively. Find the media
 - [**Median_2 -- 53ms(cpp)**](https://oj.leetcode.com/discuss/9265/share-my-simple-o-log-m-n-solution-for-your-reference)
     - 使用算法导论中的**Kth算法**。
 
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

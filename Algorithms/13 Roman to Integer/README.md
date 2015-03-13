@@ -122,3 +122,8 @@ Input is guaranteed to be within the range from 1 to 3999.
     ```    
 
 - 看了一下其他的代码，大致的思想都是上面的方法，可能还有我没发现的。只是代码编写的形式不同而已。
+
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

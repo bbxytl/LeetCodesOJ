@@ -16,3 +16,9 @@ Related problem: [Reverse Integer](https://leetcode.com/problems/reverse-integer
 
 - **[Reverse -- 9ms](https://leetcode.com/submissions/detail/22609065/)**
 - **[Reverse2 -- 12ms](https://leetcode.com/submissions/detail/22610900/)**
+
+
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

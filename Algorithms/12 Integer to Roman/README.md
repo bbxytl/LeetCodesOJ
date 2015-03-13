@@ -227,3 +227,7 @@ Input is guaranteed to be within the range from 1 to 3999.
             如： 90 < 100 ，但 90==9*(100/10) ，则添加一个 (100/10)=10 对应的罗马数字 X 和一个 100 对应的罗马数字 C  ，则 90=XC；
     - 个人觉得这个算法有点复杂！不过还是挺高效的。这里学习一下思想。
 
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

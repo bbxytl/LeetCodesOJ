@@ -20,3 +20,8 @@ string convert(string text, int nRows);
 
 - **[ZigZag -- 44ms](https://oj.leetcode.com/submissions/detail/22293458/)**
 - **[ZigZag2 -- 22ms](https://oj.leetcode.com/discuss/26913/my-c-code-22ms-calculate-the-th-char-original-index-directly)**
+
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

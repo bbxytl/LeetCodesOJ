@@ -1,4 +1,4 @@
-# [14 Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+# [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
 Write a function to find the longest common prefix string amongst an array of strings.
 求字符串数组中字符串的最长公共前缀。
@@ -127,3 +127,7 @@ Write a function to find the longest common prefix string amongst an array of st
         }
     };
     ```
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

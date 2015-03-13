@@ -17,3 +17,8 @@ Note: You may not slant the container.
     - 比较新构成的面积和原来的比较哪个大，取大的；
     - 如果 `leftH < rightH `，则左边的坐标向前移一步，否则是右边的移动，这个保证了高的那个边得以保留；
     - 直到两个坐标移动到同一点或左边的坐标移动到了右边坐标的右边时说明所有点判断完毕，已经得出了最大区域。
+
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

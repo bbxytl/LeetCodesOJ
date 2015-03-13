@@ -166,3 +166,8 @@ string longestPalindrome(string s) {
   return s.substr((centerIndex - 1 - maxLen)/2, maxLen);
 }
 ```
+
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

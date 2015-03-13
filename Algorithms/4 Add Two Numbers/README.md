@@ -23,3 +23,9 @@ Output: 7 -> 0 -> 8
 
 - **[addTwo -- 54ms](https://oj.leetcode.com/submissions/detail/22234254/)**
 - **[addTwo2 -- 56ms](https://oj.leetcode.com/discuss/26141/cpp-solution-56ms)**
+
+
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

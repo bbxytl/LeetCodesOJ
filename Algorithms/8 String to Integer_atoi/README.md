@@ -34,3 +34,8 @@ If no valid conversion could be performed, a zero value is returned. If the corr
     - **STL**及其简洁的代码。
 - **[String to Integer (atoi) 3 -- 15ms](https://leetcode.com/submissions/detail/22698066/)**  
     - 及其巧妙的防溢出判断，如果末尾大于7，则如果是正数，肯定溢出，返回**INT_MAX**；如果是负数，即使不溢出，也是要返回**INT_MIN**。
+
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

@@ -26,3 +26,9 @@ Test cases had been added to test the overflow behavior.
 - **[Reverse2 -- 14ms](https://oj.leetcode.com/discuss/26491/4-ms-c-solution)**
     - 通过将`int `转换为 `long`
 - **[Reverse3 -- 14ms](https://oj.leetcode.com/discuss/26491/4-ms-c-solution)**
+
+
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

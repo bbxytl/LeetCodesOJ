@@ -25,3 +25,7 @@ You may assume that each input would have exactly one solution.
 
 - **[TwoSum.c--6ms](https://oj.leetcode.com/discuss/26692/6ms-c-solution-with-self-implemented-hash-table)**
 
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**

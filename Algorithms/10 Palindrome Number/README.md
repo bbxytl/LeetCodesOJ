@@ -19,3 +19,8 @@ There is a more generic way of solving this problem.
     - 如果是回文的，则从前向后看和从后向前看这两个整数都是应该相同的。如果不同，则一定不是回文的。
 - **[Palindrome -- 122ms](https://leetcode.com/submissions/detail/22699691/)**
     - 此种思想，是类似于判断一个字符串是否为回文字符串。从两头向中间比较对应位上的数字是否相同，如果直到中间都相同，则是回文，否则有任一个不同的，就不是回文。
+
+
+##**附录**
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[GitHub博客](http://bbxytl.github.io/)**
