@@ -1,4 +1,4 @@
-[**GitHub博客**](https://github.com/bbxytl/bbxytl.github.com/tree/master/blog/README.md) / [LeetCodesOJ](https://github.com/bbxytl/LeetCodesOJ)
+[**GitHubBlog**](https://github.com/bbxytl/bbxytl.github.com/blob/master/blog/README.md#home--githubblog) / [LeetCodesOJ](https://github.com/bbxytl/LeetCodesOJ)
 =======
 **Lean from [LeetCode OJ](https://oj.leetcode.com/)**
 
