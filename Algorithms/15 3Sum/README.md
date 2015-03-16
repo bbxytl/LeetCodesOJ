@@ -86,7 +86,8 @@ For example, given array S = {-1 0 1 2 -1 -4},
         end
      end
     ```
-    - 同时，根据维基百科上给出的[未解决的计算机科学问题](http://zh.wikipedia.org/wiki/%E6%9C%AA%E8%A7%A3%E6%B1%BA%E7%9A%84%E8%A8%88%E7%AE%97%E6%A9%9F%E7%A7%91%E5%AD%B8%E5%95%8F%E9%A1%8C)中的**算法**里有这个问题：可以在次二次时间*内解决3SUM*问题吗？
+    - 同时，根据维基百科上给出的[未解决的计算机科学问题](http://zh.wikipedia.org/wiki/%E6%9C%AA%E8%A7%A3%E6%B1%BA%E7%9A%84%E8%A8%88%E7%AE%97%E6%A9%9F%E7%A7%91%E5%AD%B8%E5%95%8F%E9%A1%8C)中的**算法**里有这个问题：可以在次二次时间内解决3SUM问题吗？   
+      
     ![未解决的计算机科学问题--算法](./images/pic2.png)
 
 
