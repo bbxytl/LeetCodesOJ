@@ -16,6 +16,9 @@
 **[11 Container With Most Water](./Algorithms/11 Container With Most Water#container-with-most-water)**        
 **[12 Integer to Roman](./Algorithms/12 Integer to Roman#integer-to-roman)**      
 **[13 Roman to Integer](./Algorithms/13 Roman to Integer#roman-to-integer)**     
-**[14 Longest Common Prefix](./Algorithms/14 Longest Common Prefix#longest-common-prefix)**    
+**[14 Longest Common Prefix](./Algorithms/14 Longest Common Prefix#longest-common-prefix)**   
+**[15 3Sum](./Algorithms/15 3Sum#3sum)**   
+**[16 3Sum Closest](./Algorithms/16 3Sum Closest#3Sum-closest)**   
+**[17 4Sum](./Algorithms/17 4Sum#4sum)**    
 
 

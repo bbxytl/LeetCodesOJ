@@ -125,5 +125,5 @@ Input is guaranteed to be within the range from 1 to 3999.
 
 
 ##**附录**
-- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md)** 
+- **[开源GitHub](https://github.com/bbxytl/LeetCodesOJ/blob/master/README.md#githubblog--leetcodesoj)** 
 - **[GitHub博客](http://bbxytl.github.io/)**
