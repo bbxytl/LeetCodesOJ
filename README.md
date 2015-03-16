@@ -18,7 +18,7 @@
 **[13 Roman to Integer](./Algorithms/13 Roman to Integer#roman-to-integer)**     
 **[14 Longest Common Prefix](./Algorithms/14 Longest Common Prefix#longest-common-prefix)**   
 **[15 3Sum](./Algorithms/15 3Sum#3sum)**   
-**[16 3Sum Closest](./Algorithms/16 3Sum Closest#3Sum-closest)**   
+**[16 3Sum Closest](./Algorithms/16 3Sum Closest#3sum-closest)**   
 **[17 4Sum](./Algorithms/17 4Sum#4sum)**    
 
 
